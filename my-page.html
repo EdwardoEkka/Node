@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <nav class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">🌐 My Portfolio</h1>
+            <div class="space-x-6">
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#projects" class="hover:text-blue-600">Projects</a>
+                <a href="#contact" class="hover:text-blue-600">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen bg-gradient-to-br from-blue-500 to-indigo-600 text-white flex flex-col items-center justify-center p-6">
+        <h2 class="text-4xl md:text-6xl font-extrabold mb-4">👋 Hello, I'm [Your Name]</h2>
+        <p class="text-xl md:text-2xl text-center">A passionate Full-Stack Developer 🚀</p>
+        <button class="mt-6 px-6 py-2 bg-white text-indigo-600 rounded-lg font-semibold shadow hover:bg-gray-200">
+            <a href="#contact">Get in Touch</a>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 bg-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4">About Me</h3>
+            <p class="text-lg">
+                🎓 I'm a Computer Science and Engineering student who loves building modern and scalable web apps. I enjoy working with 
+                <span class="font-semibold">React, Redux, Tailwind CSS</span>, and exploring new technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-6 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Projects</h3>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Project Card -->
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-2">⚙️ Task Scheduler</h4>
+                    <p>A grid-based task scheduler optimized for e-vehicles.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-2">🌍 Tourism App</h4>
+                    <p>A tourism platform to explore and book exciting places to visit.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-2">📝 Event Management System</h4>
+                    <p>Manage events seamlessly with our event management system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
+            <p class="mb-4">Feel free to connect with me!</p>
+            <div class="space-x-4">
+                <a href="mailto:your-email@example.com" class="text-blue-500 text-xl">📧 Email</a>
+                <a href="https://github.com" target="_blank" class="text-black text-xl">🐙 GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="text-blue-700 text-xl">🔗 LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
